@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+section{
+    height: 80vh;
+    width: 75%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    height: 100%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.head1{
+    height: 35%;
+    width: 80%;
+    background-color: rgb(62, 62, 152);
+    display: flex;
+    margin-top: -4rem;  
+}
+.head2{
+    height: 35%;
+    width: 80%;
+    background-color: rgb(109, 169, 31);
+    margin-top: -4rem;
+    }
+.head3{
+    height: 35%;
+    width: 80%;
+    background-color: rgb(237, 93, 31);
+    margin-top: -4rem;
+    }
+.main{
+    height: 65%;
+    width: 80%;
+    background-color:white;
+}
+.offer{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    text-transform:uppercase;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 1px;
+    
+}
+.price{
+    font-size: 5.25rem ;
+}
+
+ul li{
+    color: gray;
+    font-weight: 700;
+    padding-top: 35px;
+    margin-left: 1.5em;
+    list-style-type: none;
+}
+button{
+    margin: 40px 0 0 5px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(237, 93, 31);
+    border: 1px solid rgb(206, 196, 192);
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(183, 65, 14);
+}
